@@ -1,4 +1,4 @@
-# Daymark Job Application Tracker
+# Job Application Tracker
 
 A full-stack job-search workspace for tracking applications, interviews, deadlines, reminders, and outcomes. The React client uses the Spring Boot REST API, and MySQL persists user-owned records.
 

@@ -1,0 +1,6 @@
+.page-intro { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+.page-eyebrow { margin-bottom: 9px; color: var(--accent); font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.page-intro h1 { margin: 0; color: var(--ink); font-size: clamp(25px, 3vw, 32px); font-weight: 680; letter-spacing: -1px; line-height: 1.15; }
+.page-intro p { max-width: 570px; margin: 9px 0 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.page-intro-action { flex: 0 0 auto; }
+@media (max-width: 540px) { .page-intro { align-items: flex-start; flex-direction: column; gap: 16px; } }

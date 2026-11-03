@@ -1,0 +1,29 @@
+.app-shell { display: flex; min-height: 100vh; background: var(--canvas); }
+.app-sidebar { position: sticky; top: 0; display: flex; height: 100vh; flex: 0 0 248px; }
+.app-main { min-width: 0; flex: 1; }
+.app-topbar { position: sticky; z-index: 5; top: 0; display: flex; align-items: center; justify-content: space-between; height: 66px; padding: 0 36px; border-bottom: 1px solid var(--border); background: #ffffffeb; backdrop-filter: blur(12px); }
+.topbar-crumb { display: flex; align-items: center; gap: 11px; color: var(--muted); font-size: 12px; text-transform: capitalize; }
+.topbar-crumb i { color: #c5c9cd; font-size: 10px; }
+.topbar-crumb strong { color: #525a63; font-weight: 600; }
+.topbar-actions { display: flex; align-items: center; gap: 14px; }
+.icon-button { display: grid; place-items: center; width: 33px; height: 33px; border: 1px solid transparent; border-radius: 8px; color: #737b83; background: transparent; cursor: pointer; font-size: 16px; }
+.icon-button:hover { border-color: var(--border); background: white; color: var(--ink); }
+.topbar-divider { height: 23px; border-left: 1px solid var(--border); }
+.topbar-account { display: flex; align-items: center; gap: 8px; padding: 0; border: 0; background: none; cursor: pointer; }
+.account-chevron { color: #92989e; font-size: 10px; }
+.sign-out-button { padding: 7px 10px; border: 0; border-radius: 7px; color: #737b83; background: transparent; font-size: 11px; cursor: pointer; }
+.sign-out-button:hover { color: var(--ink); background: #f4f6f7; }
+.mobile-menu-button, .mobile-scrim { display: none; }
+.page-container { width: min(1160px, 100%); margin: 0 auto; padding: 38px 42px 64px; }
+@media (max-width: 900px) { .app-topbar { padding: 0 24px; } .page-container { padding: 30px 24px 52px; } }
+@media (max-width: 720px) {
+  .app-sidebar { position: fixed; z-index: 20; top: 0; bottom: 0; left: 0; width: 270px; height: 100dvh; transform: translateX(-105%); transition: transform .2s ease; }
+  .app-sidebar--open { transform: translateX(0); }
+  .mobile-scrim { position: fixed; z-index: 19; inset: 0; display: block; width: 100%; height: 100%; border: 0; background: #1826306e; }
+  .mobile-menu-button { display: grid; }
+  .app-topbar { height: 59px; padding: 0 15px; }
+  .topbar-crumb { margin-right: auto; margin-left: 11px; font-size: 11px; }
+  .topbar-actions { gap: 7px; }
+  .topbar-divider, .topbar-account, .sign-out-button { display: none; }
+  .page-container { padding: 26px 17px 42px; }
+}

@@ -1,0 +1,4 @@
+.filter-panel { display: flex; flex-wrap: wrap; gap: 7px; }
+.filter-panel select, .filter-panel input { height: 36px; padding: 0 9px; border: 1px solid var(--border); border-radius: 7px; outline: 0; color: #626b72; background: white; font-size: 10px; }
+.filter-panel select:focus, .filter-panel input:focus { border-color: #9db1bc; }
+@media (max-width: 620px) { .filter-panel { width: 100%; } .filter-panel select, .filter-panel input { flex: 1; min-width: 120px; } }

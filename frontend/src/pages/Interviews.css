@@ -1,0 +1,18 @@
+.interviews-panel { overflow: hidden; border: 1px solid var(--border); border-radius: 11px; background: white; }
+.interviews-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding: 13px 16px; border-bottom: 1px solid var(--border); }
+.interviews-toolbar > span { display: flex; align-items: center; gap: 8px; color: #626d74; font-size: 10px; font-weight: 650; }
+.interviews-toolbar > div { display: flex; gap: 8px; }
+.interviews-toolbar label { display: flex; align-items: center; gap: 5px; color: var(--muted); font-size: 9px; }
+.interviews-toolbar input { height: 31px; padding: 0 7px; border: 1px solid var(--border); border-radius: 6px; color: #66717a; background: white; font-size: 9px; }
+.interview-table { width: 100%; border-collapse: collapse; text-align: left; white-space: nowrap; }
+.interview-table th { height: 38px; padding: 0 12px; color: #9aa0a5; background: #fbfcfc; font-size: 9px; font-weight: 650; }
+.interview-table td { height: 62px; padding: 8px 12px; border-top: 1px solid #f0f1f2; color: #768088; font-size: 10px; }
+.interview-table td > strong, .interview-table td > small { display: block; }.interview-table td > strong { color: #4e5961; font-size: 10px; font-weight: 650; }.interview-table td > small { margin-top: 4px; color: #9ca3a8; font-size: 9px; }
+.interview-table td a { color: #50768b; text-decoration: none; }.interview-table td a i { margin-left: 4px; }
+.interview-status { color: #698371; font-size: 9px; text-transform: capitalize; }.interview-status--cancelled { color: #aa625b; }.interview-status--completed { color: #667985; }
+.interview-empty { display: grid; justify-items: center; padding: 50px 20px; text-align: center; }.interview-empty > i { color: var(--accent); font-size: 22px; }.interview-empty h2 { margin: 12px 0 5px; font-size: 14px; }.interview-empty p { max-width: 350px; margin: 0 0 14px; color: var(--muted); font-size: 10px; line-height: 1.55; }
+.interview-dialog { width: min(100%, 590px); max-height: min(90vh, 760px); overflow: auto; padding: 22px; border: 1px solid var(--border); border-radius: 13px; background: white; }
+.dialog-heading { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 16px; }.dialog-heading h2 { margin: 0; font-size: 15px; }.dialog-heading p { margin: 5px 0 0; color: var(--muted); font-size: 10px; }.dialog-heading > button { align-self: flex-start; border: 0; color: #7f898f; background: none; cursor: pointer; }
+.interview-form { display: grid; gap: 12px; }.interview-form label { display: grid; gap: 6px; color: #59636b; font-size: 10px; font-weight: 600; }.interview-form input, .interview-form select, .interview-form textarea { min-height: 35px; padding: 7px 9px; border: 1px solid var(--border); border-radius: 6px; color: var(--ink); background: white; font-size: 10px; }.interview-form textarea { resize: vertical; }
+.interview-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; }.interview-form .dialog-actions { margin-top: 3px; }
+@media (max-width: 640px) { .interviews-toolbar { align-items: flex-start; flex-direction: column; }.interviews-toolbar > div { width: 100%; }.interviews-toolbar label { flex: 1; }.interviews-toolbar input { flex: 1; min-width: 0; }.interview-form-grid { grid-template-columns: 1fr; } }

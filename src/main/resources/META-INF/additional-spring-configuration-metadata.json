@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "app.jwt.secret",
+    "type": "java.lang.String",
+    "description": "Base64-encoded HMAC key containing at least 32 random bytes."
+  },
+  {
+    "name": "app.jwt.expiration-ms",
+    "type": "java.lang.Long",
+    "description": "JWT access-token lifetime in milliseconds."
+  },
+  {
+    "name": "app.cors.allowed-origins",
+    "type": "java.lang.String",
+    "description": "Comma-separated list of allowed browser origins."
+  },
+  {
+    "name": "app.reminders.scan-interval-ms",
+    "type": "java.lang.Long",
+    "description": "Delay in milliseconds between scheduled reminder scans."
+  }
+]}

@@ -1,0 +1,5 @@
+.pagination-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 13px 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 10px; }
+.pagination-bar > div { display: flex; align-items: center; gap: 9px; }
+.pagination-bar button { display: grid; place-items: center; width: 27px; height: 27px; border: 1px solid var(--border); border-radius: 6px; color: #66717a; background: white; cursor: pointer; }
+.pagination-bar button:disabled { color: #bdc2c6; background: #f7f8f9; cursor: default; }
+.pagination-summary { padding: 13px 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 10px; }

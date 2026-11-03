@@ -1,0 +1,5 @@
+.not-found { display: grid; min-height: 100vh; align-content: center; justify-items: center; padding: 24px; text-align: center; }
+.not-found > span { color: #8ca2ae; font-size: 12px; font-weight: 750; letter-spacing: .14em; }
+.not-found h1 { margin: 14px 0 7px; color: var(--ink); font-size: 26px; }
+.not-found p { margin: 0 0 20px; color: var(--muted); font-size: 12px; }
+.not-found .primary-button { display: inline-flex; align-items: center; padding: 0 16px; text-decoration: none; }

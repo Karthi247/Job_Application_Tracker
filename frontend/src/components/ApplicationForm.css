@@ -1,0 +1,13 @@
+.application-form { padding: 22px; border: 1px solid var(--border); border-radius: 11px; background: white; }
+.form-section-heading { margin-bottom: 18px; }
+.form-section-heading h2 { margin: 0; color: var(--ink); font-size: 14px; }
+.form-section-heading p { margin: 5px 0 0; color: var(--muted); font-size: 10px; }
+.application-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.form-field { display: grid; gap: 7px; min-width: 0; color: #59636b; font-size: 10px; font-weight: 600; }
+.form-field input, .form-field select, .form-field textarea { width: 100%; min-height: 37px; padding: 8px 10px; border: 1px solid #e0e4e7; border-radius: 7px; outline: 0; color: var(--ink); background: white; font-size: 11px; font-weight: 400; }
+.form-field textarea { resize: vertical; line-height: 1.55; }
+.form-field input:focus, .form-field select:focus, .form-field textarea:focus { border-color: #91a9b7; box-shadow: 0 0 0 3px #496d8310; }
+.form-field--wide { margin-top: 15px; }
+.application-form-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 22px; padding-top: 17px; border-top: 1px solid var(--border); }
+.application-form-actions .primary-button { min-width: 125px; min-height: 36px; margin: 0; }
+@media (max-width: 560px) { .application-form { padding: 17px; } .application-form-grid { grid-template-columns: 1fr; } }

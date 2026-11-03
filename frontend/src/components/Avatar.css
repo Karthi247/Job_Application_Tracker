@@ -1,0 +1,3 @@
+.avatar { display: grid; flex: 0 0 auto; place-items: center; color: #345263; background: #e3edf1; border-radius: 50%; font-weight: 700; }
+.avatar--small { width: 31px; height: 31px; font-size: 10px; }
+.avatar--small i { font-size: 14px; }

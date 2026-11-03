@@ -1,0 +1,7 @@
+.status-badge { display: inline-flex; align-items: center; width: max-content; padding: 5px 8px; border-radius: 999px; color: #68727a; background: #f0f2f4; font-size: 10px; font-weight: 650; text-transform: capitalize; white-space: nowrap; }
+.status-badge--applied { color: #3d6880; background: #eaf2f6; }
+.status-badge--under-review, .status-badge--assessment { color: #876b32; background: #f8f2e5; }
+.status-badge--shortlisted, .status-badge--interview { color: #536e5b; background: #edf4ee; }
+.status-badge--offer { color: #3c7459; background: #e6f3eb; }
+.status-badge--rejected, .status-badge--withdrawn { color: #9a625d; background: #f8eceb; }
+.status-badge--saved { color: #65727b; background: #eef1f3; }

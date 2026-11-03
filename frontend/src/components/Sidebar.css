@@ -1,0 +1,19 @@
+.sidebar { display: flex; flex-direction: column; width: 248px; flex: 0 0 248px; padding: 25px 16px 18px; background: var(--surface); border-right: 1px solid var(--border); }
+.brand { display: flex; align-items: center; gap: 10px; padding: 0 9px; color: var(--ink); text-decoration: none; font-size: 20px; font-weight: 750; letter-spacing: -0.7px; }
+.brand-mark { display: grid; place-items: center; width: 31px; height: 31px; border-radius: 10px; color: white; background: var(--accent); font-size: 16px; }
+.brand-period { color: var(--accent); }
+.sidebar-profile { display: flex; align-items: center; gap: 10px; margin: 31px 0 23px; padding: 11px 10px; border: 1px solid var(--border); border-radius: 10px; }
+.sidebar-profile-copy { display: grid; gap: 3px; min-width: 0; }
+.sidebar-profile-copy strong { font-size: 12px; font-weight: 650; }
+.sidebar-profile-copy span { color: var(--muted); font-size: 10px; }
+.sidebar-expand { margin-left: auto; color: var(--muted); font-size: 12px; }
+.nav-groups { display: grid; gap: 23px; }
+.nav-section h2 { margin: 0 0 8px 10px; color: #a0a5aa; font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+.nav-link { display: flex; align-items: center; gap: 11px; min-height: 37px; padding: 0 10px; border-radius: 8px; color: #6f7780; text-decoration: none; font-size: 12px; font-weight: 550; transition: background-color .15s ease, color .15s ease; }
+.nav-link i { width: 17px; font-size: 15px; }
+.nav-link:hover { background: #f5f7f8; color: var(--ink); }
+.nav-link.is-active { color: #31546a; background: #eaf0f3; font-weight: 650; }
+.sidebar-bottom { display: grid; gap: 3px; margin-top: auto; }
+.sidebar-footer { display: flex; align-items: center; gap: 8px; margin: 15px 9px 0; padding-top: 14px; border-top: 1px solid var(--border); color: var(--muted); font-size: 10px; }
+.footer-indicator { width: 7px; height: 7px; border-radius: 50%; background: #7eaa92; }
+@media (max-width: 720px) { .sidebar { width: 270px; flex-basis: 270px; height: 100%; border: 0; box-shadow: 12px 0 32px #152b3815; } }

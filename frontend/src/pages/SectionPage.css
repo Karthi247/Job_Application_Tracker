@@ -1,0 +1,4 @@
+.section-connection-card { display: flex; align-items: flex-start; gap: 14px; max-width: 650px; padding: 22px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+.connection-icon { display: grid; flex: 0 0 36px; place-items: center; width: 36px; height: 36px; border-radius: 10px; color: var(--accent); background: var(--accent-soft); }
+.section-connection-card h2 { margin: 1px 0 5px; color: var(--ink); font-size: 13px; font-weight: 650; }
+.section-connection-card p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }

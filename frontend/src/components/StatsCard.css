@@ -1,0 +1,9 @@
+.stats-card { min-height: 119px; padding: 16px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+.stats-card-top { display: flex; align-items: center; justify-content: space-between; color: #777f86; font-size: 11px; font-weight: 550; }
+.stats-icon { display: grid; place-items: center; width: 29px; height: 29px; border-radius: 8px; font-size: 14px; }
+.stats-icon--blue { color: #496d83; background: #eaf1f4; }
+.stats-icon--green { color: #578365; background: #eaf3ec; }
+.stats-icon--gold { color: #9a7b40; background: #f7f1e5; }
+.stats-icon--rose { color: #a26865; background: #f7eceb; }
+.stats-value { display: block; margin-top: 12px; color: var(--ink); font-size: 25px; font-weight: 670; letter-spacing: -.7px; }
+.stats-hint { display: block; margin-top: 4px; color: #9ba1a6; font-size: 9px; }
